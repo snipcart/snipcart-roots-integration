@@ -1,0 +1,19 @@
+doctype html
+html
+
+  head
+    meta(charset='utf8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+    meta(name='description', content='description of your site')
+    meta(name='author', content= "author of the site")
+    title= _path
+
+    != css()
+
+    link(id='snipcart-theme' rel='stylesheet' href='https://cdn.snipcart.com/themes/base/snipcart.min.css')
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+    script(id='snipcart' src='https://cdn.snipcart.com/scripts/snipcart.js' data-api-key='ZDcwYWMwNWYtNTk4Yy00OTBiLWI5ODItMTcxMDI1ZTEwOGI5')
+
+  body
+    block content
+    != js()

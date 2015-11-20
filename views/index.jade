@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h3 Welcome to Bunny Bites!
+  ul
+    each product in site.products
+      li
+        img(src=product.image)
+        div
+          a(href=product._url 
+            data-item-name=product.name
+            data-item-id=product.id
+            data-item-price=product.price
+            data-item-description=product.description
+            data-item-weight=product.weight
+            data-item-url=product._url
+            data-item-image=product.image
+            class='snipcart-add-item')= product.name
