@@ -1,6 +1,10 @@
 # bunny-bites
 
-We sell carrots.
+What's up, doc?
+
+We sell carrots with Snipcart & Roots.
+
+Check out the [demo site](http://bunny-bites.netlify.com/).
 
 ### Setup
 
