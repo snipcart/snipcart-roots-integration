@@ -1,8 +1,8 @@
-# bunny-bites
+# bunny-bite's
 
 What's up, doc?
 
-We sell carrots with Snipcart & Roots.
+We sell carrots with Snipcart & Root's.
 
 Check out the [demo site](http://bunny-bites.netlify.com/).
 
@@ -18,4 +18,4 @@ Check out the [demo site](http://bunny-bites.netlify.com/).
 ### Deploying
 
 - If you just want to compile the production build, run `roots compile -e production` and it will build to public.
-- To deploy your site with a single command, run `roots deploy -to XXX` with `XXX` being whichever [ship](https://github.com/carrot/ship#usage) deployer you want to use. 🌳
+- To deploy your site with a single command, run `roots deploy -to XXX` with `XXX` being which ever [ship](https://github.com/carrot/ship#usage) deployer you want to use. 🌳
